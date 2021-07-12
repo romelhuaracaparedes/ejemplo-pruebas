@@ -1,0 +1,256 @@
+/*centrar texto*/
+.contenedor_base {
+    display: flex;
+    align-items: center;
+}
+
+.contenido_base {
+    margin: 0 auto;
+    /* requerido para alineación horizontal */
+}
+
+/*centrar texto*/
+.contenedor_base_1 {
+    
+}
+
+.contenido_base_1 {
+    margin: 0 auto;
+    /* requerido para alineación horizontal */
+}
+
+/*centrar texto*/
+.aling-tex_left {
+    text-align: left;
+}
+
+.aling-tex_right {
+    text-align: right;
+}
+
+.aling-tex_center {
+    text-align: center;
+}
+
+.color_plomo {
+    background: #F1F1F4;
+}
+
+.color_plomo_1 {
+    background: #F0F5F8;
+}
+
+.color_azul {
+    background: #004675;
+}
+
+.color_barra {
+    background: #50CECA;
+    padding: 3px;
+}
+
+.color_negro {
+    background: #1C1C1C;
+}
+
+.color_celeste {
+    background: #59A8DA;
+}
+
+.parrafos_pequeno {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    padding: 15px 0 0 0;
+    color: #666666;
+}
+
+.parrafos_pequeno_1 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0px;
+    color: #1E120D;
+}
+
+.margenes_laterales {
+    padding: 15px 0 15px 0;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.margenes_laterales_1 {
+    padding: 30px 0 30px 0;
+}
+
+.margenes_laterales_2 {
+    padding: 50px 0 50px 0;
+}
+
+.margenes_laterales_3 {
+    padding: 50px 50px 50px 50px;
+}
+
+.foto_1 {
+    background-image: url(../imagenes/foto-1.png);
+    height: 457px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.foto_2 {
+    background-image: url(../imagenes/foto-2.png);
+    height: 457px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottom-aligned {
+    padding-top: 400px;
+    padding-left: 40px;
+}
+
+.titulos {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    padding: 15px 0 0 0;
+    color: #242424;
+}
+
+.parrafos {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+    padding: 20px 40px 0 10px;
+    color: #616262;
+}
+
+.parrafos_1 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    text-align: center;
+    padding: 15px 0 0 0px;
+    color: #616262;
+}
+
+.parrafos_2 {
+    font-family: 'Open Sans';
+    text-align: justify;
+    font-weight: 400;
+    padding: 15px 0 0 0px;
+    color: #888080;
+}
+
+.parrafos_3 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: #fff;
+}
+
+.icono_1 {
+    font-size: 75px;
+    color: #00AF08;
+}
+
+.icono_2 {
+    font-size: 75px;
+    color: #F7336E;
+}
+
+.icono_3 {
+    font-size: 75px;
+    color: #2065F9;
+}
+
+.icono_4 {
+    font-size: 75px;
+    color: #FCA800;
+}
+
+.icono_5 {
+    font-size: 75px;
+    color: #004675;
+}
+
+.btn_1 {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.btn-primary_1 {
+    color: #fff;
+    background-color: #004675;
+    border-color: #007bff
+}
+
+.btn-primary_1:hover {
+    color: #fff;
+    background-color: #004675;
+    border-color: #0062cc
+}
+
+.titulos_1 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    padding: 15px 0 0 0;
+    color: #fff;
+}
+
+.circulo {
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #004675;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 25px;
+}
+
+.btn_2 {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-primary_2 {
+    color: #004675;
+    
+}
+
+.btn-primary_2:hover {
+    color: #004675;  
+}
